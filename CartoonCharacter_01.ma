@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: CartoonCharacter_01.ma
-//Last modified: Sat, Sep 14, 2024 02:37:31 PM
+//Last modified: Sat, Sep 14, 2024 02:45:24 PM
 //Codeset: 1252
 requires maya "2025ff03";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
@@ -12,12 +12,12 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202407121012-8ed02f4c99";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22631)";
-fileInfo "UUID" "0F2DA46C-46B5-FF18-8B40-7590E2D3F9D8";
+fileInfo "UUID" "70424CC2-46C9-F0BC-BCA1-7A8158AC397D";
 createNode transform -s -n "persp";
 	rename -uid "0FF8C14F-4F8A-93A8-7770-5AB4221DD9A1";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -209.34584968408501 129.11083263300253 46.437273237898864 ;
-	setAttr ".r" -type "double3" -22.53835272959352 -435.39999999998855 6.3088879656557093e-15 ;
+	setAttr ".t" -type "double3" -64.79103313064995 120.00444864778302 201.66425846555504 ;
+	setAttr ".r" -type "double3" -20.138352729672523 -377.00000000000927 4.1573497643289646e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "2707FC46-4A20-122A-6A74-EF91272DBB6C";
 	setAttr -k off ".v" no;
